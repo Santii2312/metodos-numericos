@@ -19,7 +19,7 @@ while (opc_sel != 4)
 
             a = 1;
             b = 1.6;
-            funcion = "4*x^2-5*x";
+            funcion = "4*x.^2-5.*x";
 
             % pedir a y b
             while(error != 0)
@@ -84,7 +84,7 @@ while (opc_sel != 4)
         case 3
 
         otherwise
-            disp("Por favor seleccione una opción válida")
+            disp("Hasta pronto...")
         endswitch
 
 end
